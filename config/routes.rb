@@ -1,4 +1,8 @@
 Sedora::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/help"
+
   resources :deals
 
   resources :vendors

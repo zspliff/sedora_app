@@ -28,6 +28,7 @@ gem 'railties', '3.2.8'
 
 group :test do
 	gem 'capybara', '1.1.2'
+	gem 'launchy'
 end
 
 group :production do
